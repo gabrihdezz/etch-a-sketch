@@ -4,9 +4,24 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="styles.css">
-    <title>Document</title>
+    <title>Etch a sketch</title>
 </head>
 <body>
+    <div class="side-container">
+        <h1>Etch a sketch!</h1>
+        <div>
+            <h2>Choose a size for the grid:</h2>
+            <select>
+                <option value="16">16x16</option>
+                <option value="32">32x32</option>
+                <option value="64">64x64</option>
+                <option value="100">100x100</option>
+            </select>
+            <p>Hold CTRL while hovering over the <br> grid to not draw the squares.</p>
+        </div>
+            
+        <button class="reset-button">Clear Canvas</button>
+    </div>
     
     <div class="grid-container"></div>
 
